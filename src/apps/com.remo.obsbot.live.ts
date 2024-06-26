@@ -1,4 +1,4 @@
-import { defineGkdApp } from '@gkd-kit/define';
+import { defineGkdApp } from '@gkd-kit/tools';
 
 export default defineGkdApp({
   id: 'com.remo.obsbot.live',
