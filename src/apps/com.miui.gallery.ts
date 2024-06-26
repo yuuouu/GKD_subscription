@@ -6,13 +6,11 @@ export default defineGkdApp({
   groups: [
     {
       key: 1,
-      name: '勾选云端删除',
-      desc: '自动勾选同时从云端',
+      name: '功能类-删除时勾选[同时从云端删除]',
       rules: [
         {
           activityIds: 'com.miui.gallery.activity.InternalPhotoPageActivity',
-          matches: '[id="android:id/checkbox"]',
-          exampleUrls: 'https://m.gkd.li/152465495/c51ed769-9376-4cd9-9d56-de8f1cf5af6a',
+          matches: '[text="同时从云端删除"][checked=false]',
           snapshotUrls: 'https://i.gkd.li/i/15804289',
         },
       ],
